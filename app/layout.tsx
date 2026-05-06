@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
 }
 
-const theme = process.env.NEXT_PUBLIC_THEME === 'light' ? 'light' : 'dark'
+const theme = process.env.THEME === 'light' ? 'light' : 'dark'
 
 export default function RootLayout({
   children,
